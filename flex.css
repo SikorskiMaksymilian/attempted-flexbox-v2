@@ -1,0 +1,111 @@
+html {
+    background-color: black;
+    font-family: monospace  ;
+}
+
+#header {
+    display: flex;
+    height: 135px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 7px groove white;
+}
+
+.htext {
+    display: table-cell; 
+    overflow: hidden;
+    vertical-align: middle;
+    width: 335px;
+    height: 125px;
+    color: white;
+    font-size: 160%;
+}
+
+#h1 {
+    background-color: red;
+    width: 355px;
+    text-align: center;
+}
+
+#h2 {
+    background-color: orange;
+    width: 355px;
+    text-align: center;
+}
+
+#h3 {
+    background-color: rgb(231, 228, 19);
+    width: 355px;
+    text-align: center;
+}
+
+#h4 {
+    background-color: greenyellow;
+    width: 355px;
+    text-align: center;
+}
+
+#h5 {
+    background-color: rgb(0, 195, 255);
+    width: 355px;
+    text-align: center;
+}
+
+#h6 {
+    background-color: rgb(170, 0, 255);
+    width: 355px;
+    text-align: center;
+}
+
+#lmwwrap {
+    display: flex;
+}
+
+#lewy {
+
+    height: 500px;
+    width: 60%;
+    box-sizing: border-box;
+    border: 8px groove white;
+}
+
+#main-wrap {
+    display: flex;
+    height: 500px;
+    width: 40%;
+    box-sizing: border-box;
+    border: 8px groove white;
+}
+
+#mw1, #mw2, #mw3, #mw4, #mw5, #mw6 {
+    margin: 15px;
+}
+
+#footer {
+    display: inline-flexbox;
+    height: 75px;
+    box-sizing: border-box;
+    border: 8px groove white;
+}
+
+#f1 {
+    color: white;
+}
+
+#f2 {
+    color: white;
+}
+
+#zegarek {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: white;
+        letter-spacing: 7px;   
+}
+
+#txt {
+    color: white;
+    margin: 10px;
+    font-size: 3rem;    
+}
